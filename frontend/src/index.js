@@ -11,12 +11,14 @@ import Homepage from "./components/Homepage.jsx";
 
 
 
+
 ReactDOM.render(
   <BrowserRouter>
     <div className="w-screen h-screen">
       <React.StrictMode>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
+          
         </Routes>
       </React.StrictMode>
     </div>
