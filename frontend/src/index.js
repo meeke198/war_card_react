@@ -6,7 +6,7 @@ import ReactDOM from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import JoinRoomContainer from "./pages/JoinRoom/JoinRoom";
-import Homepage from "./components/Homepage.jsx";
+import Homepage from "./components/Home/Homepage.jsx";
 
 
 
@@ -18,7 +18,6 @@ ReactDOM.render(
       <React.StrictMode>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
-          
         </Routes>
       </React.StrictMode>
     </div>

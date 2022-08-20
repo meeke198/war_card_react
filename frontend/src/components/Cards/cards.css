@@ -1,3 +1,88 @@
+#popupStart,
+#popupEnd {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../../public/war-logo.png');
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* center chieu ngang*/
+  padding: 0px 20px;
+}
+#popupEnd {
+  display: none;
+}
+#end,
+#start {
+  width: 250px;
+  height: 40px;
+  margin-top: 40px;
+  text-align: center;
+  background-color: #39a6a3;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 30px;
+}
+.introduction,
+.endGame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 560px;
+  height: 620px;
+  background-color: #d1e8e4;
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+.endGame {
+  background-color: #f0d9e7;
+}
+
+#start:hover {
+  background-color: #5f939a;
+}
+#end:hover {
+  background-color: #5f939a;
+}
+.introduction > p {
+  padding: 50px 25px;
+  color: #7952b3;
+  font-size: 30px;
+  text-align: center;
+}
+#popup-title {
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: 'Finger Paint', cursive;
+  color: #df5e5e;
+}
+
+.demonstration {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.demonstration-img {
+  height: 50px;
+  width: 80px;
+}
+
+.demonstration p {
+  font-size: 25px;
+  color: #7952b3;
+  padding-right: 20px;
+}
+
+.endGame p {
+  padding: 20px 25px;
+  color: #7952b3;
+  font-size: 30px;
+  text-align: center;
+}
 .board {
   display: flex;
   flex-direction: row;
